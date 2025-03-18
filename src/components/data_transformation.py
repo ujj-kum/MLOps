@@ -63,9 +63,11 @@ class DataTransformation:
                 )
             logging.info(f"Preprocessor object saved at: {self.data_transformation_config.preprocessor_obj_file_path}")
             return train_arr, test_arr
+        
         except Exception as e:
             logging.info(f"Error in data transformation: {e}")
             raise CustomException(error_message=e, error_details=sys)
+        
     
     def get_data_transformation(self):
         try:

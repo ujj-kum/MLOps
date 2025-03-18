@@ -23,7 +23,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Initiating data ingestion")
         try:
-            data = pd.read_csv('./playground-series-s3e8/train.csv')
+            data = pd.read_csv("playground-series-s3e8/train.csv")
             logging.info("Data ingestion successful")
             # Create the folder to save dataframe
             os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)),exist_ok=True)
@@ -32,7 +32,7 @@ class DataIngestion:
 
             # Split the data into train and test
             logging.info("Splitting data into train and test")
-            train_data, test_data = train_test_split(data, test_size=0.2, random_state=42)
+            train_data, test_data = train_test_split(data, test_size=0.25, random_state=42)
             logging.info("Data split successful")
 
             # Save the train and test data

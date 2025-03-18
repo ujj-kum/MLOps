@@ -7,7 +7,7 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 from src.utils.utils import save_object, evaluate_model
-from sklearn.linear_model import LogisticRegression, Ridge, Lasso
+from sklearn.linear_model import LinearRegression, Ridge, Lasso
 
 @dataclass
 class ModelTrainerConfig:
@@ -32,7 +32,7 @@ class ModelTrainer:
             )
             # Definig the models
             models = {
-            'LinearRegression': LogisticRegression(),
+            'LinearRegression': LinearRegression(),
             'Lasso': Lasso(),
             'Ridge': Ridge(),
             }

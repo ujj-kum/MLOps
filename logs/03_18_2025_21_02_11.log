@@ -1,2 +1,0 @@
-[2025-03-18 21:02:12,504] 23 root - INFO - Initiating data ingestion
-[2025-03-18 21:02:12,520] 50 root - INFO - Error in data ingestion: [Errno 2] No such file or directory: '.../playground-series-s3e8/train.csv'

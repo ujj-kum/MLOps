@@ -44,7 +44,6 @@ def evaluate_model(X_train, y_train, X_test, y_test, models):
         report = {}
         for i in range(len(models)):
             model = list(models.values())[i]
-            # Train Model
             model.fit(X_train, y_train)
 
             # Predict Testing data
@@ -55,6 +54,7 @@ def evaluate_model(X_train, y_train, X_test, y_test, models):
 
             report[list(models.keys())[i]] =  test_model_score
         return report
+    
     except Exception as e:
         logging.info(f"Error in evaluating model: {e}")
         raise CustomException(error_message=e, error_details=sys)

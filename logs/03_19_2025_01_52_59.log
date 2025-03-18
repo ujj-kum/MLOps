@@ -1,0 +1,16 @@
+[2025-03-19 01:53:02,614] 24 root - INFO - Initiating data ingestion
+[2025-03-19 01:53:02,834] 27 root - INFO - Data ingestion successful
+[2025-03-19 01:53:03,994] 31 root - INFO - Data saved at: artifacts\raw_data.csv
+[2025-03-19 01:53:03,994] 34 root - INFO - Splitting data into train and test
+[2025-03-19 01:53:04,025] 36 root - INFO - Data split successful
+[2025-03-19 01:53:05,186] 43 root - INFO - Train data saved at: artifacts\train_data.csv
+[2025-03-19 01:53:05,186] 44 root - INFO - Test data saved at: artifacts\test_data.csv
+[2025-03-19 01:53:05,186] 36 root - INFO - Initiating data transformation
+[2025-03-19 01:53:05,452] 41 root - INFO - Data loaded successfully
+[2025-03-19 01:53:05,452] 74 root - INFO - Initiating data transformation
+[2025-03-19 01:53:05,452] 85 root - INFO - Pipeline Initiated
+[2025-03-19 01:53:05,891] 53 root - INFO - Data transformation successful
+[2025-03-19 01:53:05,925] 64 root - INFO - Preprocessor object saved at: artifacts\preprocessor.pkl
+[2025-03-19 01:53:05,930] 26 root - INFO - Splitting data into train and test
+[2025-03-19 01:53:07,616] 42 root - INFO - Model Report: {'LinearRegression': 0.9361253831282493, 'Lasso': 0.9361107946795251, 'Ridge': 0.9361250094980922}
+[2025-03-19 01:53:07,632] 50 root - INFO - Best Model: LinearRegression with R2 Score: 0.9361253831282493
