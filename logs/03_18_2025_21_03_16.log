@@ -1,0 +1,7 @@
+[2025-03-18 21:03:17,775] 23 root - INFO - Initiating data ingestion
+[2025-03-18 21:03:18,429] 26 root - INFO - Data ingestion successful
+[2025-03-18 21:03:19,821] 30 root - INFO - Data saved at: artifacts\raw_data.csv
+[2025-03-18 21:03:19,821] 33 root - INFO - Splitting data into train and test
+[2025-03-18 21:03:20,042] 35 root - INFO - Data split successful
+[2025-03-18 21:03:21,374] 42 root - INFO - Train data saved at: artifacts\train_data.csv
+[2025-03-18 21:03:21,374] 43 root - INFO - Test data saved at: artifacts\test_data.csv

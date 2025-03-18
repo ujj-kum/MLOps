@@ -1,0 +1,16 @@
+[2025-03-19 00:13:57,351] 24 root - INFO - Initiating data ingestion
+[2025-03-19 00:13:57,950] 27 root - INFO - Data ingestion successful
+[2025-03-19 00:13:59,444] 31 root - INFO - Data saved at: artifacts\raw_data.csv
+[2025-03-19 00:13:59,444] 34 root - INFO - Splitting data into train and test
+[2025-03-19 00:13:59,678] 36 root - INFO - Data split successful
+[2025-03-19 00:14:01,605] 43 root - INFO - Train data saved at: artifacts\train_data.csv
+[2025-03-19 00:14:01,605] 44 root - INFO - Test data saved at: artifacts\test_data.csv
+[2025-03-19 00:14:01,623] 36 root - INFO - Initiating data transformation
+[2025-03-19 00:14:02,618] 41 root - INFO - Data loaded successfully
+[2025-03-19 00:14:02,618] 72 root - INFO - Initiating data transformation
+[2025-03-19 00:14:02,619] 83 root - INFO - Pipeline Initiated
+[2025-03-19 00:14:03,244] 53 root - INFO - Data transformation successful
+[2025-03-19 00:14:03,276] 64 root - INFO - Preprocessor object saved at: artifacts\preprocessor.pkl
+[2025-03-19 00:14:03,280] 26 root - INFO - Splitting data into train and test
+[2025-03-19 00:14:04,019] 59 root - INFO - Error in evaluating model: Unable to allocate 10.1 GiB for an array with shape (154858, 8730) and data type float64
+[2025-03-19 00:14:04,019] 54 root - INFO - Error in data ingestion: Error in file D:\WORK STUDY\MLOPS\MLOps\src\utils\utils.py at line 48: Unable to allocate 10.1 GiB for an array with shape (154858, 8730) and data type float64
