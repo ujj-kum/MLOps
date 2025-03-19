@@ -10,6 +10,12 @@ echo [$(date)]: "Activating virtual environment"
 
 source envName/Scripts/activate
 
+# To run in windows terminal,
+# Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+# Activate environment
+# .\envName\Scripts\activate
+
 echo [$(date)]: "Installing required packages"
 
 # Install required packages

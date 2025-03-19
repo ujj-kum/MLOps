@@ -1,0 +1,15 @@
+[2025-03-19 12:33:32,108] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-03-19 12:33:32,108] 97 werkzeug - INFO -  * Debugger PIN: 138-905-764
+[2025-03-19 12:33:40,823] 97 werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 12:33:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2025-03-19 12:33:41,203] 97 werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 12:33:41] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-03-19 12:33:41,317] 97 werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 12:33:41] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-03-19 12:33:41,335] 97 werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 12:33:41] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=cNggoLySDI3m9DbUr3Vy HTTP/1.1" 200 -
+[2025-03-19 12:33:41,827] 97 werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 12:33:41] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-03-19 12:33:48,649] 97 werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 12:33:48] "GET / HTTP/1.1" 200 -
+[2025-03-19 12:33:52,578] 97 werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 12:33:52] "GET /predict HTTP/1.1" 200 -
+[2025-03-19 12:34:08,390] 97 werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 12:34:08] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2025-03-19 12:34:08,788] 97 werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 12:34:08] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-03-19 12:34:08,790] 97 werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 12:34:08] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-03-19 12:34:09,045] 97 werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 12:34:09] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png&s=cNggoLySDI3m9DbUr3Vy HTTP/1.1[0m" 304 -
+[2025-03-19 12:34:09,263] 97 werkzeug - INFO - 127.0.0.1 - - [19/Mar/2025 12:34:09] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-03-19 12:35:27,108] 97 werkzeug - INFO -  * Detected change in 'D:\\WORK STUDY\\MLOPS\\MLOps\\src\\pipeline\\prediction_pipeline.py', reloading
