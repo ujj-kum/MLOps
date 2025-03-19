@@ -19,3 +19,4 @@ if __name__=='__main__':
         mlflow.log_param('operation', operation)
         print(res)
         mlflow.log_param('result', res)
+    mlflow.end_run()

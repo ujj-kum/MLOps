@@ -1,0 +1,19 @@
+[2025-03-20 00:39:02,301] 24 root - INFO - Initiating data ingestion
+[2025-03-20 00:39:02,535] 27 root - INFO - Data ingestion successful
+[2025-03-20 00:39:03,711] 31 root - INFO - Data saved at: artifacts\raw_data.csv
+[2025-03-20 00:39:03,711] 34 root - INFO - Splitting data into train and test
+[2025-03-20 00:39:03,750] 36 root - INFO - Data split successful
+[2025-03-20 00:39:05,013] 43 root - INFO - Train data saved at: artifacts\train_data.csv
+[2025-03-20 00:39:05,013] 44 root - INFO - Test data saved at: artifacts\test_data.csv
+[2025-03-20 00:39:05,013] 36 root - INFO - Initiating data transformation
+[2025-03-20 00:39:05,248] 41 root - INFO - Data loaded successfully
+[2025-03-20 00:39:05,248] 74 root - INFO - Initiating data transformation
+[2025-03-20 00:39:05,248] 85 root - INFO - Pipeline Initiated
+[2025-03-20 00:39:05,641] 53 root - INFO - Data transformation successful
+[2025-03-20 00:39:05,656] 64 root - INFO - Preprocessor object saved at: artifacts\preprocessor.pkl
+[2025-03-20 00:39:05,656] 26 root - INFO - Splitting data into train and test
+[2025-03-20 00:39:06,613] 42 root - INFO - Model Report: {'LinearRegression': 0.9361253831282493, 'Lasso': 0.9361107946795251, 'Ridge': 0.9361250094980922}
+[2025-03-20 00:39:06,613] 50 root - INFO - Best Model: LinearRegression with R2 Score: 0.9361253831282493
+[2025-03-20 00:39:06,613] 24 root - INFO - Model Evaluation initiated
+[2025-03-20 00:39:06,613] 35 root - INFO - Model Started successfully
+[2025-03-20 00:39:07,284] 52 root - INFO - Error in data ingestion: 'NoneType' object does not support item assignment

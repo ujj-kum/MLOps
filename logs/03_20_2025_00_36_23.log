@@ -1,0 +1,24 @@
+[2025-03-20 00:36:26,794] 24 root - INFO - Initiating data ingestion
+[2025-03-20 00:36:27,013] 27 root - INFO - Data ingestion successful
+[2025-03-20 00:36:28,173] 31 root - INFO - Data saved at: artifacts\raw_data.csv
+[2025-03-20 00:36:28,173] 34 root - INFO - Splitting data into train and test
+[2025-03-20 00:36:28,220] 36 root - INFO - Data split successful
+[2025-03-20 00:36:29,428] 43 root - INFO - Train data saved at: artifacts\train_data.csv
+[2025-03-20 00:36:29,428] 44 root - INFO - Test data saved at: artifacts\test_data.csv
+[2025-03-20 00:36:29,428] 36 root - INFO - Initiating data transformation
+[2025-03-20 00:36:29,678] 41 root - INFO - Data loaded successfully
+[2025-03-20 00:36:29,678] 74 root - INFO - Initiating data transformation
+[2025-03-20 00:36:29,678] 85 root - INFO - Pipeline Initiated
+[2025-03-20 00:36:30,117] 53 root - INFO - Data transformation successful
+[2025-03-20 00:36:30,133] 64 root - INFO - Preprocessor object saved at: artifacts\preprocessor.pkl
+[2025-03-20 00:36:30,149] 26 root - INFO - Splitting data into train and test
+[2025-03-20 00:36:31,075] 42 root - INFO - Model Report: {'LinearRegression': 0.9361253831282493, 'Lasso': 0.9361107946795251, 'Ridge': 0.9361250094980922}
+[2025-03-20 00:36:31,075] 50 root - INFO - Best Model: LinearRegression with R2 Score: 0.9361253831282493
+[2025-03-20 00:36:31,075] 24 root - INFO - Model Evaluation initiated
+[2025-03-20 00:36:31,075] 35 root - INFO - Model Started successfully
+[2025-03-20 00:36:35,684] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A09BDECD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create
+[2025-03-20 00:36:43,762] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A085E55D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create
+[2025-03-20 00:36:55,836] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A08CF13D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create
+[2025-03-20 00:37:15,893] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A0914CE50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create
+[2025-03-20 00:37:51,931] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A08CE7690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/runs/create
+[2025-03-20 00:37:55,990] 52 root - INFO - Error in data ingestion: API request to http://localhost:5000/api/2.0/mlflow/runs/create failed with exception HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /api/2.0/mlflow/runs/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A0918F790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
