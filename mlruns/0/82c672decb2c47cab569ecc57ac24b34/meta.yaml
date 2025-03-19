@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/WORK%20STUDY/MLOPS/MLOps/mlruns/0/82c672decb2c47cab569ecc57ac24b34/artifacts
+end_time: 1742391022869
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 82c672decb2c47cab569ecc57ac24b34
+run_name: grandiose-foal-969
+run_uuid: 82c672decb2c47cab569ecc57ac24b34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742391022837
+status: 3
+tags: []
+user_id: batma
