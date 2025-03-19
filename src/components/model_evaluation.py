@@ -33,10 +33,11 @@ class ModelEvaluation:
             # mlflow.set_registry_uri(file_path="")
             logging.info("Model Started successfully")
             
-            tracking_url_type_store = urlparse(mlflow.get_registry_uri()).scheme
+            tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
             # Start MLFlow run
             with mlflow.start_run():
+                logging.info("MLFlow run started")
                 prediction = model.predict(X_test)
 
                 rmse, mae, r2 = self.eval_metrics(y_test, prediction)
@@ -47,6 +48,7 @@ class ModelEvaluation:
                 else:
                     # Run on local system
                     mlflow.sklearn.log_model(model, "model")
+            mlflow.end_run()           
         except Exception as e:
             logging.info(f"Error in data ingestion: {e}")
             raise CustomException(error_message=e, error_details=sys)
