@@ -20,3 +20,7 @@ train_array, test_array = data_transformation.initialize_data_transformation(tra
 
 model_trainer = ModelTrainer()
 model_trainer.initiate_model_training(train_array, test_array)
+
+# Evaluate the model
+model_evaluation = ModelEvaluation()
+model_evaluation.initiate_model_evaluation(train_array, test_array)
